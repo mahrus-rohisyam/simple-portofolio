@@ -1,8 +1,11 @@
 # Simple HTML Portofolio
 
+## Preview
+
+![The San Juan Mountains are beautiful!](/Figma-Screenshot.png "Simple HTML Portofolio Preview")
 ## Author
 
-Written by Mahrus Sayid.
+Written by [Mahrus Sayid](https://github.com/mahrus-rohisyam).
 
 ## Thanks
 
