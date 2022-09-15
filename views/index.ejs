@@ -1,50 +1,101 @@
 <%- include('partials/header') %> <%- include('partials/navbar') %>
 <!-- Your content below this tag -->
 <!-- Welcome Section -->
-<section id="welcome">
+<section class="container" id="welcome">
+  <figure>
+    <img id="profile-picture" width="300px" height="300px" src="/images/russ-caffe.jpeg" alt="Mahrus Sayid">
+  </figure>
   <h1>Mahrus Sayid</h1>
-  <p>Description here</p>
+  <p>Techonology Enthusiast</p>
 </section>
-<section id="about">
-  <h2>#About</h2>
-  <p>Software Engineer, Fullstack developer, Instructor who loves adventure around the world and share his experience !</p>
-  <h2>#Stacks</h2>
-  <ul>
-    <div>Enter your stack here</div>
-  </ul>
+<section class="container" id="about">
+  <section>
+    <h2>#About</h2>
+    <p>Software Engineer, Fullstack developer, Instructor who loves adventure around the world and share his experience !</p>
+  </section>
+  <section>
+    <h2>#Stacks</h2>
+    <p>Here are some stacks that I use.</p>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <figure><img class="swiper-image" src="/images/icons8-react-native.svg" alt="react"></figure>
+          <span>React</span>
+        </div>
+        <div class="swiper-slide">
+          <figure><img class="swiper-image" src="/images/icons8-docker.svg" alt="docker"></figure>
+          <span>Docker</span>
+        </div>
+        <div class="swiper-slide">
+          <figure><img class="swiper-image" src="/images/icons8-mongodb.svg" alt="mongodb"></figure>
+          <span>Mongo DB</span>
+        </div>
+        <div class="swiper-slide">
+          <figure><img class="swiper-image" src="/images/icons8-flutter.svg" alt="flutter"></figure>
+          <span>Flutter</span>
+        </div>
+        <div class="swiper-slide">
+          <figure><img class="swiper-image" src="/images/icons8-typescript.svg" alt="typescript"></figure>
+          <span>TypeScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
 </section>
 <!-- Project Section -->
-<section id="project">
-  <h2>Project goes here</h2>
+<section class="container" id="project">
+  <h2>#Project</h2>
+  <p>Here are some of my projects !</p>
   <article id="project-grid">
-    <div class="grid">
-      <figure>
-        <img src="" alt="Todo Application With React">
-      </figure>
-      <h2>Project Title</h2>
-      <p>Project Description</p>
-    </div>
+      <a class="project-tile fade-in" href="#">
+        <figure>
+          <img class="project-image" src="/images/image-1.png" alt="Tribute Website">
+        </figure>
+        <h2>Tribute Website</h2>
+      </a>
+      <a class="project-tile fade-in" href="#">
+        <figure>
+          <img class="project-image" src="/images/image-2.png" alt="Wiki Web">
+        </figure>
+        <h2>Wiki Website</h2>
+      </a>
+      <a class="project-tile fade-in" href="#">
+        <figure>
+          <img class="project-image" src="/images/image-3.png" alt="Tic Tac Toe">
+        </figure>
+        <h2>Tic Tac Toe</h2>
+      </a>
   </article>
 </section>
 <!-- Contact Section -->
-<section id="contact">
-  <h2>Here is my contact</h2>
+<section class="container" id="contact">
+    <h2>#Contact</h2>
+    <h3>Let’s Work Together..</h3>
+    <p><small>Pick your favorite social media get started.</small></p>
   <ul id="social">
     <li>
-      <span id="github">GitHub</span>
-      <a href="https://github.com/mahrus-rohisyam"></a>
+      <span class="sr-only" id="github">GitHub</span>
+      <a class="github" href="https://github.com/mahrus-rohisyam">
+        <figure><img class="shrink" src="/images/icons8-github 1.svg" alt="github"></figure>
+      </a>
     </li>
     <li>
-      <span id="linkedin">Linkedin</span>
-      <a href="https://linkedin.com/in/mahrus"></a>
+      <span class="sr-only" id="linkedin">Linkedin</span>
+      <a class="linkedin" href="https://linkedin.com/in/mahrus">
+        <figure><img class="shrink" src="/images/icons8-linkedin-circled.svg" alt="linkedin"></figure>
+      </a>
     </li>
     <li>
-      <span id="email">Email</span>
-      <a href="https://github.com/mahrus-rohisyam"></a>
+      <span class="sr-only" id="email">Email</span>
+      <a class="email" href="mailto:mahrusaim@gmail.com">
+        <figure><img class="shrink" src="/images/At.svg" alt="email"></figure>
+      </a>
     </li>
     <li>
-      <span id="instagram">Instagram</span>
-      <a href="https://instagram.com/mahrus.rohisyam"></a>
+      <span class="sr-only" id="instagram"></span>
+      <a class="instagram" href="https://instagram.com/mahrus.rohisyam">
+        <figure><img class="shrink" src="/images/icons8-instagram.svg" alt="instagram"></figure>
+      </a>
     </li>
   </ul>
 </section>
