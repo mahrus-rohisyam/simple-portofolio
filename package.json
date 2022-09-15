@@ -13,5 +13,27 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "swiper": "^8.4.0"
-  }
+  },
+  "description": "Written by Mahrus Sayid.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahrus-rohisyam/simple-portofolio.git"
+  },
+  "keywords": [
+    "nodejs",
+    "web-server",
+    "express",
+    "ejs",
+    "javascript",
+    "mvc",
+    "simple-portofolio-website"
+  ],
+  "author": "Mahrus Sayid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahrus-rohisyam/simple-portofolio/issues"
+  },
+  "homepage": "https://github.com/mahrus-rohisyam/simple-portofolio#readme"
 }
